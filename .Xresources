@@ -1,0 +1,14 @@
+URxvt*font: xft:Iosevka Term:size=15
+URxvt.scrollBar: false
+URxvt*background: black
+URxvt*foreground: white
+URxvt*color4: #ff5555
+URxvt*color12: #137dff
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.perl-ext-common: default,selection-to-clipboard
+
+URxvt.keysym.C-S-C: eval:selection_to_clipboard
+URxvt.keysym.C-S-V: eval:paste_clipboard
